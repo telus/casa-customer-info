@@ -1,0 +1,248 @@
+{
+  "usage": "Utilisation",
+  "dataUsage": "Utilisation de données",
+  "dataOverage": "Dépassement de données",
+  "overageCost": "Coût excédentaire",
+  "usageError": "Impossible de récupérer l’utilisation de données, veuillez ré-essayer plus tard.",
+  "internet": "Internet",
+  "smarthub": "Internet-Smarthub",
+  "ffhInactiveTab": "Inactif",
+  "tv": "Télé",
+  "pikTv": "Pik Télé",
+  "noLocal": "Pas de local",
+  "noLocalmsg": "Ce n'est pas une ligne locale",
+  "monthlyPlanCost": "Ce montant constitue le plan forfaitaire de base (basePlan $), plus les options (addOns $), moins les rabais (totalDiscount $).",
+  "morePlanDetails": "Plus de détails sur le plan ",
+  "mobilityActiveTab": "Actifs",
+  "notExist": "Aucun produit existant",
+  "productError": "Impossible de récupérer des produits, veuillez réessayer plus tard.",
+  "detailsError": "Impossible de récupérer les détails des produits, veuillez ré-essayer plus tard.",
+  "voiceUsageError": "Impossible de récupérer l’utilisation de la voix, veuillez réessayer plus tard.",
+  "additional": "Détails supplémentaires",
+  "ffhActiveTab": "Actif",
+  "securityAndSafety": "Sécurité résidentielle",
+  "livingWell": "Compagnon LivingWell",
+  "otherIncludedFeatures": "Autres services inclus",
+  "activeProducts": "Produits actifs",
+  "data": "Données",
+  "subscriberCancellationDate": "Date d’annulation",
+  "term": "Terme",
+  "minutesAndMessaging": "Minutes & Messagerie",
+  "hsicUsageError": "Impossible de récupérer l’utilisation internet, veuillez ré-essayer plus tard.",
+  "dataTopUps": "Options données additionnelles",
+  "equipment": "Équipement",
+  "channels": "Chaînes",
+  "inactiveProducts": "Produits inactifs",
+  "themePacks": "Forfaits thématiques",
+  "monthlyPlanError": "Impossible de récupérer le coût du plan mensuel, veuillez ré-essayer plus tard.",
+  "discounts": "Rabais",
+  "equipmentNotExist": "Aucun équipement existant",
+  "type": "Type",
+  "rent": "Louer",
+  "purchase": "Acheter",
+  "registrationNo": "Nº d'inscription",
+  "activated": "Activation",
+  "noDiscount": "Il n'y a pas de rabais",
+  "addOns": "Options",
+  "monthlyPlan": "Plan Mensuel",
+  "premium": "Prémium",
+  "longDistance": "Interurbains",
+  "equipmentError": "Impossible de récupérer les détails de l'équipement, veuillez ré-essayer plus tard.",
+  "packs": "Forfaits",
+  "servicesIncluded": "Services inclus",
+  "fixedUsageError": "Impossible de récupérer l’utilisation des données, veuillez ré-essayer plus tard.",
+  "features": "Fonctionnalités",
+  "satelliteTv": "Télé satellite",
+  "mobilityInactiveTab": "Inactifs",
+  "serviceAddress": "Adresse de service",
+  "locale": "fr-CA",
+  "oneSource": "lasource",
+  "status": {
+    "collectionSuspension": "Suspension pour recouvrement",
+    "collectionCancellation": "fr_Collection Cancellation",
+    "cancelled": "Annulé",
+    "terminated": "Résilié",
+    "reserved": "Réservé",
+    "active": "Actif",
+    "preActivated": "Pré-Activé",
+    "suspended": "Suspendu",
+    "moved": "Déplacé",
+    "vacation": "Vacances"
+  },
+  "suspensionMessage": {
+    "fl": "Suspension complète depuis le {{productStatusDate}}"
+  },
+  "yrs": "ans",
+  "mtm": "Mensuelle",
+  "months": "mois",
+  "noActiveSubscriber": "Il n’y a aucun abonné d’actif",
+  "noInactiveSubscriber": "Il n’y a aucun abonné d’inactif",
+  "noActiveProduct": "l n’y a aucun produit d’actif",
+  "noInactiveProduct": "Il n’y a aucun produit d’inactif",
+  "fetchIndicatorError": "L'indicateur de technologie n'a pas pu se charger.",
+  "expiry": "Expiration",
+  "messaging": "Messagerie",
+  "overage": "Dépassement",
+  "voice": "Voix",
+  "cost": "Coût",
+  "essentials": "Base numérique",
+  "productNames": {
+    "internet": "Internet",
+    "tv": "Télé",
+    "piktv": "Pik Télé",
+    "homephone": "Téléphone",
+    "homesecurity": "Sécurité résidentielle"
+  },
+  "additionals": {
+    "9152698438813934": {
+      "name": "Acquired - Graydon - DO NOT SELL",
+      "category": "Previous Provider"
+    },
+    "91526946001139298": {
+      "name": "Acquired - Paladin -DO NOT SELL",
+      "category": "Previous Provider"
+    },
+    "9154132902813883854": {
+      "name": "ADT - DO NOT SELL",
+      "category": "Previous Provider"
+    },
+    "9154132902813883860": {
+      "name": "Brinks",
+      "category": "Previous Provider"
+    },
+    "9154132902813883863": {
+      "name": "Chubb",
+      "category": "Previous Provider"
+    },
+    "9154132902813883864": {
+      "name": "DIY Monitoring only",
+      "category": "Previous Provider"
+    },
+    "9154132902813883866": {
+      "name": "Fluent",
+      "category": "Previous Provider"
+    },
+    "9154132902813883868": {
+      "name": "Liberty",
+      "category": "Previous Provider"
+    },
+    "9154132902813883870": {
+      "name": "Nest",
+      "category": "Previous Provider"
+    },
+    "9154132902813883872": {
+      "name": "No Security services",
+      "category": "Previous Provider"
+    },
+    "9154132902813883876": {
+      "name": "Other",
+      "category": "Previous Provider"
+    },
+    "9154132902813883878": {
+      "name": "Price Alarm",
+      "category": "Previous Provider"
+    },
+    "9154132902813883880": {
+      "name": "Provident",
+      "category": "Previous Provider"
+    },
+    "9154132902813883884": {
+      "name": "Reliance",
+      "category": "Previous Provider"
+    },
+    "9154132902813883885": {
+      "name": "Ring",
+      "category": "Previous Provider"
+    },
+    "9154132902813883897": {
+      "name": "Rogers",
+      "category": "Previous Provider"
+    },
+    "9154132902813883899": {
+      "name": "Securetek",
+      "category": "Previous Provider"
+    },
+    "9153028682213126503": {
+      "name": "ACME",
+      "category": "Previous Provider"
+    },
+    "9153028682213126508": {
+      "name": "AlarmForce",
+      "category": "Previous Provider"
+    },
+    "9153028682213126504": {
+      "name": "Ambush",
+      "category": "Previous Provider"
+    },
+    "9153028682213126506": {
+      "name": "Graydon",
+      "category": "Previous Provider"
+    },
+    "9153028682213126507": {
+      "name": "Paladin",
+      "category": "Previous Provider"
+    },
+    "9156502700013373140": {
+      "name": "Direct Alert",
+      "category": "Previous Provider"
+    },
+    "9155793538813291983": {
+      "name": "Pro Install",
+      "category": "Delivery Method"
+    },
+    "9156198150013903802": {
+      "name": "Pro Install",
+      "category": "Delivery Method"
+    },
+    "9157950450813372764": {
+      "name": "Software",
+      "category": "Delivery Method"
+    },
+    "9157950450813372763": {
+      "name": "Software",
+      "category": "Delivery Method"
+    },
+    "9155793538813292023": {
+      "name": "Retailer supplied",
+      "category": "Delivery Method"
+    },
+    "9156198150013903800": {
+      "name": "Retailer supplied",
+      "category": "Delivery Method"
+    },
+    "9155793538813292020": {
+      "name": "Self-Install",
+      "category": "Delivery Method"
+    },
+    "9156198150013903801": {
+      "name": "Self-Install",
+      "category": "Delivery Method"
+    }
+  },
+  "usageFrom": "Utilisation du",
+  "smartRingNumber": "Numéro de Smart Ring",
+  "productID": "ID produit",
+  "vodCoupons": "Coupons VSD",
+  "noVodCoupon": "Il n'y a pas de coupons VSD",
+  "noThemePack": "Il n'y a pas de forfaits thématiques",
+  "noPacks": "Il n'y a pas de forfaits",
+  "noChannel": "Il n'y a pas de chaînes à la carte",
+  "noAdditionalDetail": "Il n'y a pas de détails supplémentaires",
+  "noAddOns": "Il n'y a pas d'options",
+  "service": "Service",
+  "ilec": "ILEC",
+  "exp": "Exp",
+  "subscriberActivationDate": "Date d'activation",
+  "reservationDate": "Date de réservation",
+  "subscriberCancellation": "Annulation",
+  "UnableToFetchTermFor": "Unable to fetch Terme, please try again later.",
+  "shareddatafor": "Données partagées pour",
+  "shareddata": "Données Partagées",
+  "fixedData": "Données Fixes",
+  "subscriber": "Abonné",
+  "of": "des",
+  "viewUsage": "Voir l'utilisation",
+  "goSend": "go/envoyerdans",
+  "goBOSR": "BOSR",
+  "goETS": "ETS"
+}

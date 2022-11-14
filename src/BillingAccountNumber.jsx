@@ -3,9 +3,7 @@ import PropTypes from 'prop-types'
 import CasaColours from '@telus/casa-core-colours'
 import { CasaBox } from '@telus/casa-box'
 import CasaText from '@telus/casa-text'
-// import {
-// 	getCasaAppLocale
-// } from '../../utils/helper'
+import { getCasaAppLocale } from './helper.js'
 import AccountStatusIndicator from './AccountStatusIndicator'
 
 const BillingAccountNumber = ({

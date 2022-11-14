@@ -5,9 +5,7 @@ import {
 } from '@tds/core-decorative-icon'
 import CasaColours from '@telus/casa-core-colours'
 import { CasaBox } from '@telus/casa-box'
-// import {
-// 	getCasaAppLocale 
-// } from '../../utils/helper'
+import { getCasaAppLocale } from './helper.js'
 import { getCapitalizedName } from '@telus/casa-utils'
 import CasaText from '@telus/casa-text'
 import BillingAccountNumber from './BillingAccountNumber'

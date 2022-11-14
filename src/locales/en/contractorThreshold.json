@@ -1,0 +1,28 @@
+{
+	"tableColumns": {
+		"name": "Name",
+		"xid": "t/x ID",
+		"level": "Level",
+		"startDate": "Start (Date)",
+		"endDate": "End (Date)"
+	},
+	"contractorThreshold": "Contractor Threshold",
+	"addUser": "Add User",
+	"level": "Level",
+	"id": "ID",
+	"removeThreshold": "Remove Threshold",
+	"removeConfirmation": "Are you sure you want to remove this user?",
+	"addContractorSuccess": "Contractor Added Successfully! It may take a moment for the Contractor table to update",
+	"errors": {
+		"apiFailure": "System down. Try again later.",
+		"notFound": "User not found",
+		"invalid": "Invalid ID. Try again.",
+		"addContractorError": "Unable to submit. Try again later",
+		"unable": "Unable to retrieve this information. Try again.",
+		"releaseCodeError": "Please refresh the page and try again.",
+		"invalidID": "Non-numerical values not accepted. Try again."
+	},
+	"placeholders": {
+		"id": "Enter Value"
+	}
+}

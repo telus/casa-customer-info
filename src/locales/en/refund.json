@@ -1,0 +1,30 @@
+{
+    "refundReasons":{
+        "RefundEquip": "Refund equipment",
+        "OverPayment": "Refund over payment",
+        "ClosedAcct": "Refund closed account",
+        "OverBill": "Refund overbilled",
+        "DuplicatePayment": "Duplicate Payment",
+        "PaymentMadeInError": "Payment made in error"
+    },
+    "refundAmount": {
+        "notificationText": "Amount entered exceeds the balance"
+    },
+    "RFOVRP": "Refund over payment",
+    "paymentType": "Payment type",
+    "remainingAmount": "Remaining amount",
+    "modifiedPaymentDetails": "Modified payment details",
+    "originalAmount": "Original amount",
+    "billingSystem": "Billing system",
+    "toBAN": "To BAN",
+    "BANTooltip" : "Get BAN details",
+    "invoice": "Invoice #",
+    "destinationAccount" : "Destination account",
+    "addDestinationAccount" : "Add destination account",
+    "remaining" : "remaining",
+    "invoiceHint" : "This field is used by the Payment Experience team",
+    "additionalFeesAndTaxTitle": "Credit card processing fees summary",
+    "additionalFeesAndTaxDescription": "Not included in the remaining balance",
+    "remainingBalance": "Remaining balance",
+    "remainingBalanceHint": "Any left over balance will remain with the originating BAN"
+}

@@ -1,0 +1,563 @@
+{
+  "summary": "Summary",
+  "offer": "Offer",
+  "selectAnOffer": "Select an offer",
+  "yes": "Yes",
+  "eligible": "Eligible",
+  "tooltip": {
+    "vacationSus": "Vacation suspend since START_DATE",
+    "vacationSusEndDate": "Vacation suspend from START_DATE to END_DATE",
+    "SNPSus": "Suspended due to non-payments",
+    "LSTSus": "Lost or stolen",
+    "CLMSSus": "Credit limit exceeded"
+  },
+  "rootCause": "Root cause of credit",
+  "rootCauses": [
+    {
+      "key": "deniesKnowledge",
+      "value": "Denies knowledge",
+      "shortCode": "DN_KNWLDGE"
+    },
+    {
+      "key": "escalationPrevention",
+      "value": "Escalation prevention",
+      "shortCode": "ESC_PRVTN"
+    },
+    {
+      "key": "churnRisk",
+      "value": "Churn risk",
+      "shortCode": "CHRN_RSK"
+    },
+    {
+      "key": "compensation",
+      "value": "Compensation",
+      "shortCode": "CMPNSTN"
+    },
+    {
+      "key": "doNotUseEnough",
+      "value": "Do not use enough",
+      "shortCode": "DNT_USE_ENGH"
+    }
+  ],
+  "solutionProvided": "Solution provided",
+  "solutionsProvided": [
+    {
+      "key": "purchasePin",
+      "value": "Purchase pin",
+      "shortCode": "PRCHS_PN"
+    },
+    {
+      "key": "changedPlan",
+      "value": "Changed plan",
+      "shortCode": "CHNGD_PLN"
+    },
+    {
+      "key": "customerEducation",
+      "value": "Customer education",
+      "shortCode": "CUS_EDUC"
+    },
+    {
+      "key": "disabledOnDemand",
+      "value": "Disabled on demand",
+      "shortCode": "DSBLD_ON_DMND"
+    },
+    {
+      "key": "renewedServiceAgreement",
+      "value": "Renewed service agreement",
+      "shortCode": "RNWD_SVC_AGRMNT"
+    }
+  ],
+  "category": "Category",
+  "adjustmentReason": "Reason",
+  "categories": {
+    "phoneLine": {
+      "key": "phoneLine",
+      "value": "Phone Line"
+    },
+    "longDistance": {
+      "key": "longDistance",
+      "value": "Long Distance"
+    },
+    "internetAndIPApplications": {
+      "key": "internetAndIPApplications",
+      "value": "Internet & IP Applications"
+    },
+    "tv": {
+      "key": "tv",
+      "value": "TV"
+    },
+    "satelliteTV": {
+      "key": "satelliteTV",
+      "value": "Satellite TV"
+    },
+    "equipment": {
+      "key": "equipment",
+      "value": "Equipment"
+    },
+    "paymentIssues": {
+      "key": "paymentIssues",
+      "value": "Payment issues"
+    },
+    "miscellaneous": {
+      "key": "miscellaneous",
+      "value": "Miscellaneous"
+    },
+    "pikTV": {
+      "key": "pikTV",
+      "value": "Pik TV"
+    },
+    "SHSAndLivingWell": {
+      "key": "SHSAndLivingWell",
+      "value": "SHS & LivingWell"
+    },
+    "customerWorkCharged": {
+      "key": "customerWorkCharged",
+      "value": "Customer Work Charged"
+    },
+    "internet": {
+      "key": "internet",
+      "value": "Internet"
+    },
+    "homePhone": {
+      "key": "homePhone",
+      "value": "Home Phone"
+    },
+    "other": {
+      "key": "other",
+      "value": "Other"
+    }
+  },
+  "adjustmentReasons": {
+    "phoneLine": {
+      "LOCACC": {
+        "shortCode": "LOCACC",
+        "value": "Local line adj"
+      },
+      "CLLFTR": {
+        "shortCode": "CLLFTR",
+        "value": "Calling feature adj"
+      },
+      "HPMSAP": {
+        "shortCode": "HPMSAP",
+        "value": "Missed home phone appointment adj"
+      },
+      "HPDLAP": {
+        "shortCode": "HPDLAP",
+        "value": "Delayed home phone appointment adj"
+      }
+    },
+    "longDistance": {
+      "LDPLN": {
+        "shortCode": "LDPLN",
+        "value": "Long distance plan adj"
+      },
+      "LD": {
+        "shortCode": "LD",
+        "value": "Long distance usage adj"
+      },
+      "ALTSP": {
+        "shortCode": "ALTSP",
+        "value": "Alternate service provider adj"
+      }
+    },
+    "internetAndIPApplications": {
+      "INTSVC": {
+        "shortCode": "INTSVC",
+        "value": "Internet access adj"
+      },
+      "ADSLAC": {
+        "shortCode": "ADSLAC",
+        "value": "High speed internet usage adj"
+      },
+      "INTMAP": {
+        "shortCode": "INTMAP",
+        "value": "Missed internet appointment adj"
+      },
+      "INTDAP": {
+        "shortCode": "INTDAP",
+        "value": "Delayed internet appointment adj"
+      }
+    },
+    "tv": {
+      "TTV": {
+        "shortCode": "TTV",
+        "value": "TELUS TV adj"
+      },
+      "VODACL": {
+        "shortCode": "VODACL",
+        "value": "Video on demand adj"
+      },
+      "PPVACL": {
+        "shortCode": "PPVACL",
+        "value": "Pay per view adj"
+      },
+      "TTVMAP": {
+        "shortCode": "TTVMAP",
+        "value": "Missed TTV appointment adj"
+      },
+      "TTVDAP": {
+        "shortCode": "TTVDAP",
+        "value": "Delayed TTV appointment adj"
+      },
+      "APPACL": {
+        "shortCode": "APPACL",
+        "value": "TTV app adj"
+      }
+    },
+    "satelliteTV": {
+      "STV": {
+        "shortCode": "STV",
+        "value": "Satellite TV adj"
+      },
+      "STVCNA": {
+        "shortCode": "STVCNA",
+        "value": "Cancellation fee Adj"
+      }
+    },
+    "equipment": {
+      "EQPTTV": {
+        "shortCode": "EQPTTV",
+        "value": "TV equipment adj"
+      },
+      "EQWFFA": {
+        "shortCode": "EQWFFA",
+        "value": "Wi-Fi Easy Payment equipment adj"
+      },
+      "EQSDFA": {
+        "shortCode": "EQSDFA",
+        "value": "Smart device Easy Payment adj"
+      },
+      "PIKADJ": {
+        "shortCode": "PIKADJ",
+        "value": "Pik TV adj"
+      },
+      "EQAPFA": {
+        "shortCode": "EQAPFA",
+        "value": "Apple TV Easy Payment adj"
+      },
+      "PERSEQ": {
+        "shortCode": "PERSEQ",
+        "value": "Equipment for LivingWell adj"
+      },
+      "SMHMEQ": {
+        "shortCode": "SMHMEQ",
+        "value": "Equipment for SHS adj"
+      },
+      "TVXOPS": {
+        "shortCode": "TVXOPS",
+        "value": "Equipment for Pik TV adj"
+      },
+      "EQSWS": {
+        "shortCode": "EQSWS",
+        "value": "SmartWear Security TELUS Easy Payment adj"
+      },
+      "EQSWP": {
+        "shortCode": "EQSWP",
+        "value": "SmartWear Security post-billing service adj"
+      },
+      "EQSKF": {
+        "shortCode": "EQSKF",
+        "value": "Security self-install kit fee credit"
+      },
+      "RIEQDT": {
+        "shortCode": "RIEQDT",
+        "value": "Rural internet equipment adj"
+      },
+      "EQNEPM": {
+        "shortCode": "EQNEPM",
+        "value": "Nintendo Device Financing – customer changed mind"
+      },
+      "EQNEPE": {
+        "shortCode": "EQNEPE",
+        "value": "Nintendo Device Financing – non-delivery, dead on arrival, or incorrect order"
+      },
+      "EQPDTA": {
+        "shortCode": "EQPDTA",
+        "value": "HS equipment return"
+      },
+      "EQPSTV": {
+        "shortCode": "EQPSTV",
+        "value": "STV equipment return"
+      }
+    },
+    "paymentIssues": {
+      "MANWO": {
+        "shortCode": "MANWO",
+        "value": "Account charges written off"
+      },
+      "LPC": {
+        "shortCode": "LPC",
+        "value": "Late payment charge adj"
+      },
+      "INSVWO": {
+        "shortCode": "INSVWO",
+        "value": "Account charges written off due to insolvency"
+      },
+      "NSF": {
+        "shortCode": "NSF",
+        "value": "NSF charge adj"
+      },
+      "PAPMT": {
+        "shortCode": "PAPMT",
+        "value": "Purchased account payment"
+      },
+      "PASET": {
+        "shortCode": "PASET",
+        "value": "Purchased account settlement"
+      }
+    },
+    "miscellaneous": {
+      "LOYLTY": {
+        "shortCode": "LOYLTY",
+        "value": "Executive Client Relations use only"
+      },
+      "TLAGNC": {
+        "shortCode": "TLAGNC",
+        "value": "TELUS Agency adj"
+      },
+      "DA": {
+        "shortCode": "DA",
+        "value": "Directory assistance adj"
+      },
+      "INT": {
+        "shortCode": "INT",
+        "value": "Interest adj"
+      },
+      "ADTCHR": {
+        "shortCode": "ADTCHR",
+        "value": "ADT security services"
+      },
+      "PRIV": {
+        "shortCode": "PRIV",
+        "value": "Privacy adj"
+      },
+      "DPPCRD": {
+        "shortCode": "DPPCRD",
+        "value": "Flexible payment plan adj"
+      },
+      "TOSRFN": {
+        "shortCode": "TOSRFN",
+        "value": "TELUS Online Security non-activation refund escalation"
+      }
+    },
+    "pikTV": {
+      "CPVR": {
+        "shortCode": "CPVR",
+        "value": "Pik TV Cloud PVR adj"
+      }
+    },
+    "SHSAndLivingWell": {
+      "SMHMAL": {
+        "shortCode": "SMHMAL",
+        "value": "Home Security adj"
+      },
+      "PERSAL": {
+        "shortCode": "PERSAL",
+        "value": "LivingWell adj"
+      },
+      "SMHMMA": {
+        "shortCode": "SMHMMA",
+        "value": "Home Security migrated balance"
+      },
+      "LWCCFA": {
+        "shortCode": "LWCCFA",
+        "value": "LivingWell Companion cancellation fee adj"
+      }
+    },
+    "customerWorkCharged": {
+      "INCCWC": {
+        "shortCode": "INCCWC",
+        "value": "Incorrect charges"
+      },
+      "UNWCWC": {
+        "shortCode": "UNWCWC",
+        "value": "Unaware of charges"
+      },
+      "UNSCWC": {
+        "shortCode": "UNSCWC",
+        "value": "Unsatisfactory service/product"
+      }
+    },
+    "internet": {
+      "RIUGAC": {
+        "shortCode": "RIUGAC",
+        "value": "Usage"
+      }
+    },
+    "other": {
+      "DEPINT": {
+        "shortCode": "DEPINT",
+        "value": "Deposit"
+      },
+      "-": {
+        "shortCode": "-",
+        "value": "Simple switch"
+      }
+    },
+    "homePhone": {
+      "BNDLE": {
+        "shortCode": "BNDLE",
+        "value": "Bundle"
+      }
+    }
+  },
+  "disputedAmount": "Disputed amount",
+  "creditCustomerEligibility": "I have confirmed the customer is eligible per the",
+  "creditPolicyLink": "Credit Policy.",
+  "calculateOffers": "Calculate Offers",
+  "offers": {
+    "a": {
+      "info1": "Does the customer understand these charges are valid?",
+      "info2": "How can the customer manage usage and prevent future charges?"
+    },
+    "b": {
+      "info1": "Prior to negotiating a larger credit, reinforce that charges are valid.",
+      "info2": "Recap options available to manage usage online or on device."
+    },
+    "c": {
+      "info1": "Do not proactively offer to escalate the customer's request.",
+      "info2": "Acknowledge the value of the customer and offer this final option."
+    }
+  },
+  "offerOneTimeCredit": "You can offer a one-time credit.",
+  "customerDetails": "Customer Details",
+  "tenure": "Tenure (yrs)",
+  "services": "Services",
+  "segment": "Segment",
+  "creditValue": "Credit value",
+  "acceptOffer": "Accept offer",
+  "decline": "Decline",
+  "override": "Override",
+  "overrideAmount": "Override amount",
+  "overrideAmountTooltipText": "Override amount cannot be greater than disputed amount",
+  "incorrectAmount": "Incorrect amount",
+  "confirmOverrideAmount": "I confirm an override amount is required.",
+  "calculateOffersError": "Unable to calculate offers. Try again.",
+  "closeAndTryAgainError": "Unable to calculate offers. Only a non-discretionary credit is possible.",
+  "unableToSubmitError": "Unable to submit. Close and try again later.",
+  "previous": "Previous",
+  "missingData": "Missing data",
+  "next": "Next",
+  "review": "Review",
+  "accepted": "Accepted",
+  "declined": "Declined",
+  "comments": "Comments",
+  "enterYourNoteHere": "Enter your note here…",
+  "overCharacterLimit": "Over character limit",
+  "submit": "Submit",
+  "segmentCodes": {
+    "1": "Segment 1",
+    "2": "Segment 2",
+    "3": "Segment 3",
+    "4": "Segment 4",
+    "5": "Segment 5",
+    "6": "Segment 6",
+    "7": "Segment 7",
+    "N": "New",
+    "U": "Unestablished",
+    "V": "Segment V",
+    "CS3": "Segment CS3"
+  },
+  "cancel": "Cancel",
+  "typeOfCredit": "Type of credit",
+  "discretionary": "Discretionary",
+  "nonDiscretionary": "Non-discretionary",
+  "continue": "Continue",
+  "unsavedChangesWarningMessage": "There are unsaved changes that will be lost.",
+  "returnAndSave": "Return and Save",
+  "province": "Province",
+  "provinceTooltipText": "Taxes are automatically calculated by province or territory",
+  "provinces": [
+    {
+      "key": "alberta",
+      "fullValue": "Alberta",
+      "value": "AB"
+    },
+    {
+      "key": "britishColumbia",
+      "fullValue": "British Columbia",
+      "value": "BC"
+    },
+    {
+      "key": "manitoba",
+      "fullValue": "Manitoba",
+      "value": "MB"
+    },
+    {
+      "key": "newBrunswick",
+      "fullValue": "New Brunswick",
+      "value": "NB"
+    },
+    {
+      "key": "newfoundlandAndLabrador",
+      "fullValue": "Newfoundland and Labrador",
+      "value": "NL"
+    },
+    {
+      "key": "northwestTerritories",
+      "fullValue": "Northwest Territories",
+      "value": "NT"
+    },
+    {
+      "key": "novaScotia",
+      "fullValue": "Nova Scotia",
+      "value": "NS"
+    },
+    {
+      "key": "nunavut",
+      "fullValue": "Nunavut",
+      "value": "NU"
+    },
+    {
+      "key": "ontario",
+      "fullValue": "Ontario",
+      "value": "ON"
+    },
+    {
+      "key": "princeEdwardIsland",
+      "fullValue": "Prince Edward Island",
+      "value": "PE"
+    },
+    {
+      "key": "quebec",
+      "fullValue": "Quebec",
+      "value": "QC"
+    },
+    {
+      "key": "saskatchewan",
+      "fullValue": "Saskatchewan",
+      "value": "SK"
+    },
+    {
+      "key": "yukon",
+      "fullValue": "Yukon Territory",
+      "value": "YT"
+    }
+  ],
+  "totalCredit": "Total credit",
+  "discretionaryCredit": "Discretionary Credit",
+  "creator": "Creator",
+  "rootCauseOfCredit": "Root cause of credit",
+  "tax": "Taxes",
+  "provinceTaxes": "Taxes",
+  "HST": "HST",
+  "GST": "GST",
+  "PST": "PST",
+  "QST": "QST",
+  "exempt": "Exempt",
+  "separateHST": "Split HST",
+  "combineHST": "Combine HST",
+  "taxExemption": "Tax exemption",
+  "taxExemptTooltipMessage": {
+    "GSTExempt": "GST Exempt: Uncheck GST",
+    "PSTExempt": "PST Exempt: Uncheck PST",
+    "QSTExempt": "QST Exempt: Uncheck QST",
+    "HSTExempt": "HST Exempt: Uncheck HST",
+    "GSTAndPSTExempt": "GST + PST exempt: uncheck both",
+    "GSTAndQSTExempt": "GST + QST exempt: uncheck both",
+    "splitHST": {
+      "GSTExempt": "GST exempt: Split HST and uncheck GST",
+      "PSTExempt": "PST exempt: Split HST and uncheck PST"
+    }
+  }
+}
