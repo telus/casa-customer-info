@@ -1,96 +1,101 @@
-import * as React from 'react'
-import { configure, mount } from 'enzyme'
-import Adapter from '@wojtekmaj/enzyme-adapter-react-17'
+import React from 'react'
+import {
+	render, screen, cleanup
+} from '@testing-library/react'
+
 import CasaCustomerInfo from '../CustomerInfo'
 
-configure({ adapter: new Adapter() })
-
-describe('CasaCustomerInfo component', () => {
-	it('should display customer-info', () => {
-		const wrapper = mount(
-			<CasaCustomerInfo
-				id="customer-info"
-			/>
-		)
-		wrapper.find('#customer-info-customer-info').at(0).simulate('change')
-		wrapper.find('#customer-info-customer-info').at(0).simulate('blur')
-		expect(wrapper.find('#customer-info-customer-info').at(0).children.length).toBe(1)
-	})
-
-	it('should display customer-info with notification', () => {
-		const wrapper = mount(
-			<CasaCustomerInfo
-				id="customer-info"
-				feedback="this is notification"
-			/>
-		)
-		expect(wrapper.find('#notification-text').at(0).text()).toBe('this is notification')
-	})
-
-	it('should display customer-info with max characters limit', () => {
-		const wrapper = mount(
-			<CasaCustomerInfo
-				id="customer-info"
-				maxCharacterLimit={5}
-			/>
-		)
-		expect(wrapper.find('#customer-info-paragraph').at(0).text()).toBe('0/5')
-	})
-
-	it('should display disabled customer-info', () => {
-		const wrapper = mount(
-			<CasaCustomerInfo
-				id="customer-info"
-				disabled
-			/>
-		)
-		expect(wrapper.find('#customer-info-customer-info').at(0).children.length).toBe(1)
-	})
-
-	it('should display error customer-info', () => {
-		const wrapper = mount(
-			<CasaCustomerInfo
-				id="customer-info"
-				variant="error"
-			/>
-		)
-		expect(wrapper.find('#customer-info-customer-info').at(0).children.length).toBe(1)
-	})
-
-	it('should display success customer-info', () => {
-		const wrapper = mount(
-			<CasaCustomerInfo
-				id="customer-info"
-				variant="success"
-			/>
-		)
-		expect(wrapper.find('#customer-info-customer-info').at(0).children.length).toBe(1)
-	})
-
-	it('should trigger onChange function', () => {
-		const setCommentText = jest.fn()
-		const updateCommentText = jest.fn()
-		const commentText = ''
-		const mockEvent = {
-			target: {
-				value: 'new comment'
-			}
+describe('casa customer info component', () => {
+	const bans = [
+		{
+			status: 'open',
+			value: '12345678'
+		},
+		{
+			status: 'closed',
+			value: '12345679'
 		}
-		const wrapper = mount(
+	]
+
+	afterEach(() => {
+		cleanup()
+	})
+
+	it('should display the telus brand logo', () => {
+		render(
 			<CasaCustomerInfo
-				id="customer-info"
-				maxLength="1000"
-				placeHolder="Placeholder customer-info"
-				styles={{
-					border: '1px solid #444',
-					borderRadius: '5px'
-				}}
-				onChange={setCommentText}
-				onBlur={updateCommentText}
-				value={commentText}
+				lob='ffh'
+				billingAccountName="Test"
+				id="id"
+				brand='telus'
+				bans={bans}
 			/>
 		)
-		wrapper.find('customer-info').simulate('change', mockEvent)
-		expect(setCommentText).toHaveBeenCalledWith(expect.objectContaining(mockEvent))
+		expect(screen.getByTestId('telus-brand-logo-id')).toBeInTheDocument()
+	})
+
+	it('should display the koodo brand logo', () => {
+		render(
+			<CasaCustomerInfo
+				lob='ffh'
+				billingAccountName="Test"
+				id="id"
+				brand='koodo'
+				bans={bans}
+			/>
+		)
+		expect(screen.getByTestId('koodo-brand-logo-id')).toBeInTheDocument()
+	})
+
+	it('should display billing account name', () => {
+		render(
+			<CasaCustomerInfo
+				lob='ffh'
+				billingAccountName="test"
+				id="id"
+				bans={bans}
+			/>
+		)
+		expect(screen.getByTestId('billing-account-name-id')).toHaveTextContent('Test')
+	})
+
+	it('should display mobility lob', () => {
+		render(
+			<CasaCustomerInfo
+				lob='mobility'
+				billingAccountName="test"
+				id="id"
+				bans={bans}
+			/>
+		)
+		expect(screen.getByTestId('lob-icon-mobility-id')).toBeInTheDocument()
+		expect(screen.getByTestId('lob-mobility-id')).toHaveTextContent('Mobility')
+	})
+
+	it('should display customer id', () => {
+		const cid = '1234'
+		render(
+			<CasaCustomerInfo
+				isCustomerId
+				customerId={cid}
+				lob='ffh'
+				billingAccountName="test"
+				id="id"
+				bans={bans}
+			/>
+		)
+		expect(screen.getByTestId('cid-id')).toHaveTextContent(`CID ${cid}`)
+	})
+
+	it('should display open ban', () => {
+		render(
+			<CasaCustomerInfo
+				lob='ffh'
+				billingAccountName="test"
+				id="id"
+				bans={bans}
+			/>
+		)
+		expect(screen.getByTestId('ban-12345678-id')).toHaveTextContent('BAN 12345678')
 	})
 })

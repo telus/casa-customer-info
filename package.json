@@ -66,11 +66,13 @@
     "@telus/casa-notification": "^1.0.1",
     "@telus/casa-tooltip": "^1.1.0",
     "@telus/casa-typography": "^1.0.0",
-    "@telus/casa-utils": "^1.1.2",
+    "@telus/casa-utils": "^1.1.4",
+    "@telus/casa-text": "^1.2.0",
     "@telus/prettier-config": "^3.0.7",
     "@telus/remark-config": "^2.0.7",
     "@telus/semantic-release-config": "^2.0.7",
     "@tds/core-interactive-icon": "^2.4.3",
+    "@tds/core-decorative-icon": "^2.16.0",
     "abort-controller": "^3.0.0",
     "babel-loader": "^8.2.5",
     "editorconfig-checker": "^4.0.2",
@@ -109,13 +111,17 @@
     "@telus/casa-notification": "^1.0.1",
     "@telus/casa-tooltip": "^1.1.0",
     "@telus/casa-typography": "^1.0.0",
-    "@telus/casa-utils": "^1.1.2",
+    "@telus/casa-utils": "^1.1.4",
+    "@telus/casa-text": "^1.2.0",
     "@tds/core-interactive-icon": "^2.4.3",
+    "@tds/core-decorative-icon": "^2.16.0",
     "abort-controller": "^3.0.0",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "styled-components": "^5.3.5"
   },
-  "dependencies": {}
+  "dependencies": {
+    "moment-timezone": "^0.5.38"
+  }
 }

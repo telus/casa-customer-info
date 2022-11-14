@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
 	collectCoverage: true,
 	coverageDirectory: './coverage',
@@ -6,7 +8,7 @@ module.exports = {
 	collectCoverageFrom: ['src/**/*.{js,jsx,ts,tsx}'],
 	coveragePathIgnorePatterns: ['/stories/', '/src/coverage'],
 	// setupTestFrameworkScriptFile: "<rootDir>/src/setupTests.js",
-	setupFilesAfterEnv: ['<rootDir>/src/jest/jsdom.setup.jsx'],
+	setupFilesAfterEnv: ['<rootDir>/src/jest/jsdom.setup.jsx', '<rootDir>/src/jest/moment.setup.js'],
 	coverageThreshold: {
 		global: {
 			branches: 30,
