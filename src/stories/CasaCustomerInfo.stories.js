@@ -1,10 +1,10 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import Casacustomer-info from '../customer-info'
+import CasaCustomerInfo from '../customer-info'
 
 storiesOf('Casa customer-info', module)
 	.add('customer-info default', () => (
-		<Casacustomer-info
+		<CasaCustomerInfo
 			id='customer-info_default'
 			variant='default'
 			placeholder='Enter a value'
@@ -17,7 +17,7 @@ storiesOf('Casa customer-info', module)
 		/>
 	))
 	.add('customer-info default with notification', () => (
-		<Casacustomer-info
+		<CasaCustomerInfo
 			id='customer-info_default_notification'
 			variant='default'
 			placeholder='Enter a value'
@@ -31,7 +31,7 @@ storiesOf('Casa customer-info', module)
 		/>
 	))
 	.add('customer-info default with max characters limit', () => (
-		<Casacustomer-info
+		<CasaCustomerInfo
 			id='customer-info_default_notification'
 			variant='default'
 			placeholder='Enter a value'
@@ -45,7 +45,7 @@ storiesOf('Casa customer-info', module)
 		/>
 	))
 	.add('customer-info default disabled', () => (
-		<Casacustomer-info
+		<CasaCustomerInfo
 			id='customer-info_default_disabled'
 			variant='default'
 			placeholder='Enter a value'
@@ -58,7 +58,7 @@ storiesOf('Casa customer-info', module)
 		/>
 	))
 	.add('customer-info error', () => (
-		<Casacustomer-info
+		<CasaCustomerInfo
 			id='customer-info_error'
 			variant='error'
 			placeholder='Enter a value'
@@ -71,7 +71,7 @@ storiesOf('Casa customer-info', module)
 		/>
 	))
 	.add('customer-info success', () => (
-		<Casacustomer-info
+		<CasaCustomerInfo
 			id='customer-info_success'
 			variant='success'
 			placeholder='Enter a value'

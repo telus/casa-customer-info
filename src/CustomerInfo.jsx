@@ -5,9 +5,9 @@ import CasaColours from '@telus/casa-core-colours'
 import FormLabel from '@telus/casa-form-label'
 
 import {
-	customer-infoContainer,
+	CustomerinfoContainer,
 	Paragraph,
-	customer-info,
+	Customerinfo,
 	CounterContainer
 } from './styles'
 
@@ -17,7 +17,7 @@ const {
 } = CasaColours
 const COMMENT_MAX_LIMIT = 500
 
-const Casacustomer-info = ({
+const CasaCustomerInfo = ({
 	id,
 	variant,
 	hintPosition,
@@ -78,7 +78,7 @@ const Casacustomer-info = ({
 	</customer-infoContainer>
 )
 
-Casacustomer-info.defaultProps = {
+CasaCustomerInfo.defaultProps = {
 	variant: 'default',
 	label: 'Comments',
 	labelSize: 'sm',
@@ -96,7 +96,7 @@ Casacustomer-info.defaultProps = {
 	onBlur: () => { }
 }
 
-Casacustomer-info.propTypes = {
+CasaCustomerInfo.propTypes = {
 	/** The actual value of the customer-info */
 	value: PropTypes.string,
 	/** Label text value */
@@ -131,4 +131,4 @@ Casacustomer-info.propTypes = {
 	onBlur: PropTypes.func
 }
 
-export default Casacustomer-info
+export default CasaCustomerInfo

@@ -1,14 +1,14 @@
 import * as React from 'react'
 import { configure, mount } from 'enzyme'
 import Adapter from '@wojtekmaj/enzyme-adapter-react-17'
-import Casacustomer-info from '../customer-info'
+import CasaCustomerInfo from '../CustomerInfo'
 
 configure({ adapter: new Adapter() })
 
-describe('Casacustomer-info component', () => {
+describe('CasaCustomerInfo component', () => {
 	it('should display customer-info', () => {
 		const wrapper = mount(
-			<Casacustomer-info
+			<CasaCustomerInfo
 				id="customer-info"
 			/>
 		)
@@ -19,7 +19,7 @@ describe('Casacustomer-info component', () => {
 
 	it('should display customer-info with notification', () => {
 		const wrapper = mount(
-			<Casacustomer-info
+			<CasaCustomerInfo
 				id="customer-info"
 				feedback="this is notification"
 			/>
@@ -29,7 +29,7 @@ describe('Casacustomer-info component', () => {
 
 	it('should display customer-info with max characters limit', () => {
 		const wrapper = mount(
-			<Casacustomer-info
+			<CasaCustomerInfo
 				id="customer-info"
 				maxCharacterLimit={5}
 			/>
@@ -39,7 +39,7 @@ describe('Casacustomer-info component', () => {
 
 	it('should display disabled customer-info', () => {
 		const wrapper = mount(
-			<Casacustomer-info
+			<CasaCustomerInfo
 				id="customer-info"
 				disabled
 			/>
@@ -49,7 +49,7 @@ describe('Casacustomer-info component', () => {
 
 	it('should display error customer-info', () => {
 		const wrapper = mount(
-			<Casacustomer-info
+			<CasaCustomerInfo
 				id="customer-info"
 				variant="error"
 			/>
@@ -59,7 +59,7 @@ describe('Casacustomer-info component', () => {
 
 	it('should display success customer-info', () => {
 		const wrapper = mount(
-			<Casacustomer-info
+			<CasaCustomerInfo
 				id="customer-info"
 				variant="success"
 			/>
@@ -77,7 +77,7 @@ describe('Casacustomer-info component', () => {
 			}
 		}
 		const wrapper = mount(
-			<Casacustomer-info
+			<CasaCustomerInfo
 				id="customer-info"
 				maxLength="1000"
 				placeHolder="Placeholder customer-info"

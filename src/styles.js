@@ -15,13 +15,13 @@ export const CounterContainer = styled.div`
   align-items: flex-end;
 `
 
-export const customer-infoContainer = styled.div`
+export const CustomerInfoContainer = styled.div`
 display: inline-flex;
 flex-direction: column;
 width: 100%
 `
 
-export const customer-info = styled.customer-info`
+export const CustomerInfo = styled.textarea`
 resize: none;
 width: 100%;
 height: ${({ height }) => (height)};
