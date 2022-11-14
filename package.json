@@ -59,10 +59,10 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.5",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.7",
-    "@telus/casa-box": "^1.0.6",
+    "@telus/casa-box": "^1.0.2",
     "@telus/casa-core-colours": "^1.1.0",
     "@telus/casa-form-label": "^1.0.1",
-    "@telus/casa-icon": "^1.4.1",
+    "@telus/casa-icon": "^1.5.1",
     "@telus/casa-notification": "^1.0.1",
     "@telus/casa-tooltip": "^1.1.0",
     "@telus/casa-typography": "^1.0.0",
@@ -101,13 +101,15 @@
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^7.0.2",
     "styled-components": "^5.3.5",
-    "styled-system": "^5.1.5"
+    "styled-system": "^5.1.5",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.38"
   },
   "peerDependencies": {
-    "@telus/casa-box": "^1.0.6",
+    "@telus/casa-box": "^1.0.2",
     "@telus/casa-core-colours": "^1.1.0",
     "@telus/casa-form-label": "^1.0.1",
-    "@telus/casa-icon": "^1.4.1",
+    "@telus/casa-icon": "^1.5.1",
     "@telus/casa-notification": "^1.0.1",
     "@telus/casa-tooltip": "^1.1.0",
     "@telus/casa-typography": "^1.0.0",
@@ -119,9 +121,9 @@
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "styled-components": "^5.3.5"
-  },
-  "dependencies": {
+    "styled-components": "^5.3.5",
+    "moment": "^2.24.0",
     "moment-timezone": "^0.5.38"
-  }
+  },
+  "dependencies": {}
 }

@@ -4,10 +4,10 @@ import {
 	Home, Mobility
 } from '@tds/core-decorative-icon'
 import CasaColours from '@telus/casa-core-colours'
-import { CasaBox } from '@telus/casa-box'
-import { getCasaAppLocale } from './helper.js'
+import CasaBox from '@telus/casa-box'
 import { getCapitalizedName } from '@telus/casa-utils'
 import CasaText from '@telus/casa-text'
+import { getCasaAppLocale } from './helper.js'
 import BillingAccountNumber from './BillingAccountNumber'
 import Telus from './svgs/Telus'
 import Koodo from './svgs/Koodo'
