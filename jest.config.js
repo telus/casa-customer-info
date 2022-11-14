@@ -9,10 +9,10 @@ module.exports = {
 	setupFilesAfterEnv: ['<rootDir>/src/jest/jsdom.setup.jsx'],
 	coverageThreshold: {
 		global: {
-			branches: 85,
-			functions: 80,
-			lines: 85,
-			statements: 85
+			branches: 30,
+			functions: 30,
+			lines: 30,
+			statements: 30
 		}
 	}
 }
