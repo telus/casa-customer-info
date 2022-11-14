@@ -1,0 +1,23 @@
+version: 4.0
+
+id: casa-customer-info
+uid: [uid]
+
+about:
+  title: casa-customer-info
+  description: Casa customer-info component
+
+contacts:
+  - type: Project Owner
+    name: casa-customer-info
+    email: [email]
+
+references:
+  - title: git
+    description: Source Code
+    uri: https://github.com/telus/casa-customer-info.git
+
+environments:
+  - type: git
+    title: NPM Package
+    uri: https://www.npmjs.com/package/@telus/casa-customer-info
