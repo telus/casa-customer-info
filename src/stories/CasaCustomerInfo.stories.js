@@ -2,9 +2,6 @@ import React from 'react'
 import { storiesOf } from '@storybook/react'
 import CasaCustomerInfo from '../CustomerInfo'
 
-// lob: mobility | ffh
-// brand: telus | koodo
-
 storiesOf('CasaCustomerInfo', module)
 	.add('Mobility with single Telus BAN', () => (
 		<CasaCustomerInfo
