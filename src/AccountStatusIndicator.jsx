@@ -1,9 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-// import OpenStatus from '@telus/casa-icon'
-// import ClosedStatus from '@telus/casa-icon'
+import OpenStatus from '@telus/casa-icon'
+import ClosedStatus from '@telus/casa-icon'
 import AccountStatusOpen from './svgs/AccountStatusOpen'
 import AccountStatusClosed from './svgs/AccountStatusClosed'
+
 const AccountStatusIndicator = ({ id, size, variant }) => (
 	variant.toLowerCase() === 'open'
 		// ? <OpenStatus id={id} size={size} />

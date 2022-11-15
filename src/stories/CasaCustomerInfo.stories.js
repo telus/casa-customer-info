@@ -1,6 +1,10 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 import CasaCustomerInfo from '../CustomerInfo'
+import Telus from '../svgs/Telus'
+import Koodo from '../svgs/Koodo'
+import AccountStatusIndicator from '../AccountStatusIndicator'
+import AccountStatusOpen from '../svgs/AccountStatusOpen'
 
 storiesOf('CasaCustomerInfo', module)
 	.add('Mobility with single Telus BAN', () => (
@@ -258,4 +262,16 @@ storiesOf('CasaCustomerInfo', module)
 					}
 				]}
 		/>
+	))
+	.add('Telus icon', () => (
+		<Telus scale={1} hasDefaultCursor />
+	))
+	.add('Koodo icon', () => (
+		<Koodo scale={1} hasDefaultCursor />
+	))
+	.add('AccountStatusIndicator', () => (
+		<AccountStatusIndicator id='a' variant='open' size='sm' />
+	))
+	.add('AccountStatusOpen', () => (
+		<AccountStatusOpen coreStyle='' size='sm' />
 	))

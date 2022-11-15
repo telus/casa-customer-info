@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import CasaColours from '@telus/casa-core-colours'
-import CasaIcon from '@telus/casa-icon'
+import CasaIcon from './CasaIcon'
 
 const AccountStatusOpen = ({
 	coreStyle,
