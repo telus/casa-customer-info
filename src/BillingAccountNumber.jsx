@@ -22,7 +22,7 @@ const BillingAccountNumber = ({
 	const locale = getCasaAppLocale()
 	const { colorGreyShark } = CasaColours
 	const renderBAN = () => {
-		let text = `${showPrefix ? prefixText || `${locale.ban.ban} ` : ''} ${(brand === 'koodo') ? '-KDO' : ''} ${ban}`
+		let text = `${showPrefix ? prefixText || `${locale.ban.ban}` : ''}${(brand === 'koodo') ? '-KDO' : ''} ${ban}`
 		return (
 			<CasaText
 				id={id}
