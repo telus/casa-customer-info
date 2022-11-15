@@ -116,5 +116,3 @@ dist
 
 # VSCode
 .vscode/
-src/svgs/AccountStatusClosed1.jsx
-src/svgs/AccountStatusOpen1.jsx

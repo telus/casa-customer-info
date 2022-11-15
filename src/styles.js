@@ -8,19 +8,6 @@ const {
 	colorAccessibleGreen
 } = CasaColours
 
-export const CounterContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
-`
-
-export const CustomerInfoContainer = styled.div`
-display: inline-flex;
-flex-direction: column;
-width: 100%
-`
-
 export const CustomerInfo = styled.textarea`
 resize: none;
 width: 100%;
@@ -46,10 +33,4 @@ line-height: 20px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
 }
-`
-export const Paragraph = styled.span`
-  font-size: ${casaFontsProps.regularTextSize};
-  font-weight:${casaFontsProps.regularFontWeight};
-  line-height: 20px;
-  color: ${({ color }) => (color)};
 `

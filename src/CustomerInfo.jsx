@@ -45,6 +45,7 @@ const CasaCustomerInfo = ({
 			>
 				<CasaText
 					id={`billing-account-name-${id}`}
+					data-testid={`billing-account-name-${id}`}
 					color={colorGreyShark}
 					size="base"
 					variant="regular"
@@ -61,6 +62,7 @@ const CasaCustomerInfo = ({
 				>
 					<CasaBox
 						id={`lob-icon-${lob}-${id}`}
+						data-testid={`lob-icon-${lob}-${id}`}
 						display="block"
 					>
 						{isMobility ? (<Mobility size={16} variant="default" />) : (<Home size={16} variant="default" />)}
@@ -68,6 +70,7 @@ const CasaCustomerInfo = ({
 					<CasaText
 						ml="4px"
 						id={`lob-${lob}-${id}`}
+						data-testid={`lob-${lob}-${id}`}
 						color={colorTelusPurple}
 						size="base"
 						variant="medium"
@@ -79,6 +82,7 @@ const CasaCustomerInfo = ({
 					{isCustomerId && (
 						<CasaText
 							id={`cid-${id}`}
+							data-testid={`cid-${id}`}
 							color={colorGreyShuttle}
 							size="base"
 							variant="medium"
@@ -89,12 +93,13 @@ const CasaCustomerInfo = ({
 					)}
 					{
 						bans.map(({ status, value }) => (
-							<CasaBox key={`ban-${value}-${id}`}>
+							<CasaBox key={`ban-${value}-${id}`} data-testid={`ban-${value}-id`}>
 								<BillingAccountNumber
 									accountStatus={status}
 									brand = {brand}
 									ban={value}
-									id={`ban-${value}-${id}`}
+									id={`ban-${value}-id`}
+									data-testid={`ban-${value}-id`}
 								/>
 							</CasaBox>
 						))

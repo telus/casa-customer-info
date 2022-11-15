@@ -7,14 +7,13 @@ module.exports = {
 	testEnvironment: 'jsdom',
 	collectCoverageFrom: ['src/**/*.{js,jsx,ts,tsx}'],
 	coveragePathIgnorePatterns: ['/stories/', '/src/coverage'],
-	// setupTestFrameworkScriptFile: "<rootDir>/src/setupTests.js",
 	setupFilesAfterEnv: ['<rootDir>/src/jest/jsdom.setup.jsx', '<rootDir>/src/jest/moment.setup.js'],
 	coverageThreshold: {
 		global: {
-			branches: 30,
-			functions: 30,
-			lines: 30,
-			statements: 30
+			branches: 55,
+			functions: 80,
+			lines: 80,
+			statements: 80
 		}
 	}
 }
