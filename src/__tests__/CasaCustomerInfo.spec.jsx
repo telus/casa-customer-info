@@ -21,18 +21,18 @@ describe('casa customer info component', () => {
 		cleanup()
 	})
 
-	// it('should display the telus brand logo', () => {
-	// 	render(
-	// 		<CasaCustomerInfo
-	// 			lob='ffh'
-	// 			billingAccountName="Test"
-	// 			id="id"
-	// 			brand='telus'
-	// 			bans={bans}
-	// 		/>
-	// 	)
-	// 	expect(screen.getByTestId('telus-brand-logo-id')).toBeInTheDocument()
-	// })
+	it('should display the telus brand logo', () => {
+		render(
+			<CasaCustomerInfo
+				lob='ffh'
+				billingAccountName="Test"
+				id="id"
+				brand='telus'
+				bans={bans}
+			/>
+		)
+		expect(screen.getByTestId('telus-brand-logo-id')).toBeInTheDocument()
+	})
 
 	// it('should display the koodo brand logo', () => {
 	// 	render(

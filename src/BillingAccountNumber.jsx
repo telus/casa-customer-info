@@ -8,6 +8,7 @@ import AccountStatusIndicator from './AccountStatusIndicator'
 
 const BillingAccountNumber = ({
 	id,
+	brand,
 	ban,
 	accountStatus,
 	accountStatusIndicatorSize,
@@ -21,7 +22,7 @@ const BillingAccountNumber = ({
 	const locale = getCasaAppLocale()
 	const { colorGreyShark } = CasaColours
 	const renderBAN = () => {
-		const text = `${showPrefix ? prefixText || `${locale.ban.ban} ` : ''}${ban}`
+		let text = `${showPrefix ? prefixText || `${locale.ban.ban} ` : ''} ${(brand === 'koodo') ? '-KDO' : ''} ${ban}`
 		return (
 			<CasaText
 				id={id}

@@ -62,7 +62,7 @@ const CasaCustomerInfo = ({
 						id={`lob-icon-${lob}-${id}`}
 						display="block"
 					>
-						{isMobility ? (<Mobility size={14} variant="default" />) : (<Home size={14} variant="default" />)}
+						{isMobility ? (<Mobility size={16} variant="default" />) : (<Home size={16} variant="default" />)}
 					</CasaBox>
 					<CasaText
 						ml="4px"
@@ -91,6 +91,7 @@ const CasaCustomerInfo = ({
 							<CasaBox key={`ban-${value}-${id}`}>
 								<BillingAccountNumber
 									accountStatus={status}
+									brand = {brand}
 									ban={value}
 									id={`ban-${value}-${id}`}
 								/>
