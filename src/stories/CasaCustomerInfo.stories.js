@@ -1,6 +1,6 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import CasaCustomerInfo from '../customer-info'
+import CasaCustomerInfo from '../CustomerInfo'
 
 storiesOf('Casa customer-info', module)
 	.add('customer-info default', () => (
