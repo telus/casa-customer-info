@@ -2,7 +2,6 @@ import React from 'react'
 import {
 	render, screen, cleanup
 } from '@testing-library/react'
-
 import CasaCustomerInfo from '../CustomerInfo'
 
 describe('casa customer info component', () => {
@@ -34,18 +33,18 @@ describe('casa customer info component', () => {
 		expect(screen.getByTestId('telus-brand-logo-id')).toBeInTheDocument()
 	})
 
-	// it('should display the koodo brand logo', () => {
-	// 	render(
-	// 		<CasaCustomerInfo
-	// 			lob='ffh'
-	// 			billingAccountName="Test"
-	// 			id="id"
-	// 			brand='koodo'
-	// 			bans={bans}
-	// 		/>
-	// 	)
-	// 	expect(screen.getByTestId('koodo-brand-logo-id')).toBeInTheDocument()
-	// })
+	it('should display the koodo brand logo', () => {
+		render(
+			<CasaCustomerInfo
+				lob='ffh'
+				billingAccountName="Test"
+				id="id"
+				brand='koodo'
+				bans={bans}
+			/>
+		)
+		expect(screen.getByTestId('koodo-brand-logo-id')).toBeInTheDocument()
+	})
 
 	// it('should display billing account name', () => {
 	// 	render(

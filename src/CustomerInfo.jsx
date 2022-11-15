@@ -36,6 +36,7 @@ const CasaCustomerInfo = ({
 				maxWidth="100%"
 				height="auto"
 				id={`${brand}-brand-logo-${id}`}
+				data-testid={`${brand}-brand-logo-${id}`}
 			>
 				{brand === 'koodo' ? <Koodo scale={1} hasDefaultCursor /> : <Telus scale={1} hasDefaultCursor />}
 			</CasaBox>
