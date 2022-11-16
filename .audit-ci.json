@@ -1,0 +1,11 @@
+{
+  "moderate": true,
+  "allowlist": [
+    1070259,
+    1081884,
+    1084924,
+    1070391
+  ],
+  "registry": "https://registry.npmjs.org",
+  "_remark": {}
+}

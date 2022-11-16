@@ -1,0 +1,253 @@
+{
+  "usage": "Usage",
+  "dataUsage": "Data Usage",
+  "dataOverage": "Data Overage",
+  "overageCost": "Overage Cost",
+  "usageError": "Unable to fetch data usage, please try again later.",
+  "internet": "Internet",
+  "smarthub": "Internet-Smarthub",
+  "ffhInactiveTab": "Inactive",
+  "tv": "TV",
+  "pikTv": "Pik TV",
+  "noLocal": "No Local",
+  "noLocalmsg": "This is not a local line",
+  "monthlyPlanCost": "This amount is based on the base plan ($basePlan), plus any add-ons ($addOns), minus any discounts ($totalDiscount).",
+  "morePlanDetails": "More Plan details in ",
+  "mobilityActiveTab": "Active",
+  "notExist": "No product exists",
+  "productError": "Unable to fetch products, please try again later.",
+  "detailsError": "Unable to fetch product details, please try later.",
+  "voiceUsageError": "Unable to fetch voice usage, please try again later.",
+  "additional": "Additional details",
+  "ffhActiveTab": "Active",
+  "securityAndSafety": "SmartHome Security",
+  "livingWell": "LivingWell Companion",
+  "otherIncludedFeatures": "Other included features",
+  "activeProducts": "Active Products",
+  "data": "Data",
+  "subscriberCancellationDate": "Cancellation Date",
+  "term": "Term",
+  "minutesAndMessaging": "Minutes and Messaging",
+  "hsicUsageError": "Unable to fetch internet usage, please try again later.",
+  "dataTopUps": "Data Top-ups",
+  "equipment": "Equipment",
+  "channels": "Channels",
+  "inactiveProducts": "Inactive Products",
+  "themePacks": "Theme Packs",
+  "monthlyPlanError": "Unable to fetch monthly plan cost, please try again later.",
+  "discounts": "Discounts",
+  "equipmentNotExist": "No equipment exists",
+  "type": "Type",
+  "rent": "Rent",
+  "purchase": "Purchase",
+  "registrationNo": "Registration #",
+  "activated": "Activated",
+  "noDiscount": "There are no discounts",
+  "addOns": "Add-ons",
+  "monthlyPlan": "Monthly Plan",
+  "premium": "Premium",
+  "longDistance": "Long Distance",
+  "equipmentError": "Unable to fetch equipment details, please try later.",
+  "packs": "Packs",
+  "servicesIncluded": "Services included",
+  "fixedUsageError": "Unable to fetch fixed data usage, please try again later.",
+  "features": "Features",
+  "satelliteTv": "Satellite TV",
+  "mobilityInactiveTab": "Inactive",
+  "serviceAddress": "Service Address",
+  "locale": "en-CA",
+  "oneSource": "OneSource",
+  "status": {
+    "collectionSuspension": "Collection Suspension",
+    "collectionCancellation": "Collection Cancellation",
+    "cancelled": "Cancelled",
+    "terminated": "Terminated",
+    "reserved": "Reserved",
+    "active": "Active",
+    "preActivated": "Pre Activated",
+    "suspended": "Suspended",
+    "moved": "Moved",
+    "vacation": "Vacation"
+  },
+  "suspensionMessage": {
+    "fl": "Full suspension since {{productStatusDate}}"
+  },
+  "yrs": "yrs",
+  "mtm": "MTM",
+  "months": "months",
+  "noActiveSubscriber": "There is no active subscriber",
+  "noInactiveSubscriber": "There is no inactive subscriber",
+  "noActiveProduct": "There is no active product",
+  "noInactiveProduct": "There is no inactive product",
+  "fetchIndicatorError": "Technology indicator failed to load.",
+  "expiry": "Expiry",
+  "messaging": "Messaging",
+  "overage": "Overage",
+  "voice": "Voice",
+  "cost": "Cost",
+  "essentials": "Essentials",
+  "productNames": {
+    "internet": "Internet",
+    "tv": "TV",
+    "piktv": "Pik TV",
+    "homephone": "Home Phone",
+    "homesecurity": "Home Security"
+  },
+  "additionals": {
+    "000": {
+      "name": "None",
+      "category": "Previous Provider"
+    },
+    "9152698438813934": {
+      "name": "Acquired - Graydon - DO NOT SELL",
+      "category": "Previous Provider"
+    },
+    "91526946001139298": {
+      "name": "Acquired - Paladin -DO NOT SELL",
+      "category": "Previous Provider"
+    },
+    "9154132902813883854": {
+      "name": "ADT - DO NOT SELL",
+      "category": "Previous Provider"
+    },
+    "9154132902813883860": {
+      "name": "Brinks",
+      "category": "Previous Provider"
+    },
+    "9154132902813883863": {
+      "name": "Chubb",
+      "category": "Previous Provider"
+    },
+    "9154132902813883864": {
+      "name": "DIY Monitoring only",
+      "category": "Previous Provider"
+    },
+    "9154132902813883866": {
+      "name": "Fluent",
+      "category": "Previous Provider"
+    },
+    "9154132902813883868": {
+      "name": "Liberty",
+      "category": "Previous Provider"
+    },
+    "9154132902813883870": {
+      "name": "Nest",
+      "category": "Previous Provider"
+    },
+    "9154132902813883872": {
+      "name": "No Security services",
+      "category": "Previous Provider"
+    },
+    "9154132902813883876": {
+      "name": "Other",
+      "category": "Previous Provider"
+    },
+    "9154132902813883878": {
+      "name": "Price Alarm",
+      "category": "Previous Provider"
+    },
+    "9154132902813883880": {
+      "name": "Provident",
+      "category": "Previous Provider"
+    },
+    "9154132902813883884": {
+      "name": "Reliance",
+      "category": "Previous Provider"
+    },
+    "9154132902813883885": {
+      "name": "Ring",
+      "category": "Previous Provider"
+    },
+    "9154132902813883897": {
+      "name": "Rogers",
+      "category": "Previous Provider"
+    },
+    "9154132902813883899": {
+      "name": "Securetek",
+      "category": "Previous Provider"
+    },
+    "9153028682213126503": {
+      "name": "ACME",
+      "category": "Previous Provider"
+    },
+    "9153028682213126508": {
+      "name": "AlarmForce",
+      "category": "Previous Provider"
+    },
+    "9153028682213126504": {
+      "name": "Ambush",
+      "category": "Previous Provider"
+    },
+    "9153028682213126506": {
+      "name": "Graydon",
+      "category": "Previous Provider"
+    },
+    "9153028682213126507": {
+      "name": "Paladin",
+      "category": "Previous Provider"
+    },
+    "9156502700013373140": {
+      "name": "Direct Alert",
+      "category": "Previous Provider"
+    },
+    "9155793538813291983": {
+      "name": "Pro Install",
+      "category": "Delivery Method"
+    },
+    "9156198150013903802": {
+      "name": "Pro Install",
+      "category": "Delivery Method"
+    },
+    "9157950450813372764": {
+      "name": "Software",
+      "category": "Delivery Method"
+    },
+    "9157950450813372763": {
+      "name": "Software",
+      "category": "Delivery Method"
+    },
+    "9155793538813292023": {
+      "name": "Retailer supplied",
+      "category": "Delivery Method"
+    },
+    "9156198150013903800": {
+      "name": "Retailer supplied",
+      "category": "Delivery Method"
+    },
+    "9155793538813292020": {
+      "name": "Self-Install",
+      "category": "Delivery Method"
+    },
+    "9156198150013903801": {
+      "name": "Self-Install",
+      "category": "Delivery Method"
+    }
+  },
+  "usageFrom": "Usage from",
+  "smartRingNumber": "Smart Ring Number",
+  "productID": "Product ID",
+  "vodCoupons": "VOD Coupons",
+  "noVodCoupon": "There are no VOD Coupons",
+  "noThemePack": "There are no theme packs",
+  "noPacks": "There are no packs",
+  "noChannel": "There are no à la carte channels",
+  "noAdditionalDetail": "There are no additional details",
+  "noAddOns": "There are no add-ons",
+  "noFeatures": "There are no features",
+  "service": "Service",
+  "ilec": "ILEC",
+  "exp": "Exp",
+  "subscriberActivationDate": "Activation date",
+  "reservationDate": "Reservation date",
+  "subscriberCancellation": "Cancellation",
+  "UnableToFetchTermFor": "Unable to fetch term, please try again later.",
+  "shareddatafor": "Shared data for",
+  "shareddata": "Shared Data",
+  "fixedData": "Fixed Data",
+  "subscriber": "subscriber",
+  "of": "of",
+  "viewUsage": "View usage",
+  "goSend": "go/SEND",
+  "goBOSR": "BOSR",
+  "goETS": "ETS"
+}

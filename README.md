@@ -1,2 +1,3 @@
-# casa-customer-info
-Casa CustomerInfo Common Component
+# CASA Customer Info
+
+CASA Customer Info

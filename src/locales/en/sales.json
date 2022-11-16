@@ -1,0 +1,363 @@
+{
+   "casaSearch":{
+       "addressLabel":"Street Address, City",
+       "clearAddressLink":"Clear",
+       "termFilter":{
+          "data":[
+             {
+                "key":"2 yrs",
+                "value":"2 Years"
+             },
+             {
+                "key":"No term",
+                "value":"No term"
+             }
+          ],
+          "headerName":"Filter Results",
+          "termHeaderName":"Term"
+       },
+       "noOffersAvailableOnFilter":"There are currently no offers available that match your filter selections.",
+       "offersLoader":"Loading Offers",
+       "equipmentTitle":"Equipment",
+       "offerHeaders":[
+          {
+             "key":"product",
+             "value":"Product"
+          },
+          {
+             "key":"term",
+             "value":"Term"
+          },
+          {
+             "key":"price",
+             "value":"Price"
+          },
+          {
+             "key":"features",
+             "value":"Features"
+          },
+          {
+             "key":"serviceAddress",
+             "value":"Service Address"
+          }
+       ],
+       "offerFor":"Internet Offers for",
+       "serviceQualificationLoader":"Verifying your Address",
+       "serviceFilter":{
+          "parent":{
+             "items":[
+                {
+                   "key":"FFH",
+                   "value":"FFH"
+                },
+                {
+                   "key":"Mobility",
+                   "value":"Mobility"
+                }
+             ],
+             "label":"LOB",
+             "tollTipsText":"Line of Business"
+          },
+          "children":{
+             "items":[
+                {
+                   "key":"OptikTV",
+                   "value":"Optik TV",
+                   "parentKey":"FFH"
+                },
+                {
+                   "key":"PikTV",
+                   "value":"Pik TV",
+                   "parentKey":"FFH"
+                },
+                {
+                   "key":"Internet",
+                   "value":"Internet",
+                   "parentKey":"FFH"
+                },
+                {
+                   "key":"HomePhone",
+                   "value":"Home Phone",
+                   "parentKey":"FFH"
+                }
+             ],
+             "label":"Products"
+          }
+       },
+       "salesDesktop":"salesOfferSearch",
+       "dataLimit":{
+          "data":[
+             {
+                "key":"limited",
+                "name":"limited GB/month",
+                "value":"limited GB/month"
+             },
+             {
+                "key":"unlimited",
+                "name":"unlimited",
+                "value":"unlimited"
+             }
+          ],
+          "planHeaderName":"Data Limit"
+       },
+       "chooseServiceTxt":"Choose Service",
+       "salesTabName":"Sales Offers",
+       "innerTabs":[
+          "01 EQUIPMENTS + ADDONS",
+          "02 CHECKOUT",
+          "INTERNET"
+       ],
+       "filterResult":{
+          "data":[
+             "2 Years",
+             "No term"
+          ],
+          "headerName":"Filter Results",
+          "termHeaderName":"Term"
+       },
+       "searchHeader":"Street address, city",
+       "giftWithPurchase":{
+          "GWP":{
+             "items":[
+                {
+                   "key":"Free_TV",
+                   "value":"Free TV"
+                },
+                {
+                   "key":"Apple_Wifi",
+                   "value":"Apple Wifi"
+                },
+                {
+                   "key":"Free_Projector",
+                   "value":"Free Projector"
+                },
+                {
+                   "key":"$500_VISA_Card",
+                   "value":"$500 VISA Card"
+                },
+                {
+                   "key":"Boost_Wifi",
+                   "value":"Boost Wifi"
+                }
+             ],
+             "label":"GWP",
+             "toolTip":"Gift with Purchase"
+          },
+          "promoPrice":{
+             "items":[
+                {
+                   "key":"$10_off_for_24_mo",
+                   "value":"$10 off/24 mo"
+                }
+             ],
+             "label":"Promo Price"
+          }
+       },
+       "noOffersErrorMessage":"FIFA Offers are not available. Please use OMNI ordering.",
+       "cartImage":[
+          {
+             "title":"Cart",
+             "file":{
+                "url":"//images.ctfassets.net/fkgg3iqdgzcd/6Mmxsb2BglGLw843TPVKlT/77306ddbae7ee83afb18ddbaeca31566/cart_full.png",
+                "details":{
+                   "size":4194,
+                   "image":{
+                      "width":224,
+                      "height":198
+                   }
+                },
+                "fileName":"cart_full.png",
+                "contentType":"image/png"
+             },
+             "sys":{
+                "space":{
+                   "sys":{
+                      "type":"Link",
+                      "linkType":"Space",
+                      "id":"fkgg3iqdgzcd"
+                   }
+                },
+                "id":"6Mmxsb2BglGLw843TPVKlT",
+                "type":"Asset",
+                "createdAt":"2019-10-22T11:45:02.367Z",
+                "updatedAt":"2019-10-23T13:01:26.502Z",
+                "environment":{
+                   "sys":{
+                      "id":"master",
+                      "type":"Link",
+                      "linkType":"Environment"
+                   }
+                },
+                "revision":3,
+                "locale":"en-CA"
+             }
+          }
+       ],
+       "equipmentAndAddons":{
+          "addons":{
+             "dataUsagePlan":{
+                "key":"Unlimited_data_usage",
+                "value":"Unlimited data usage",
+                "cartValue":"Unlimited data",
+                "termDetails":"For the first 24 months, and $15/mo. thereafter",
+                "carttermDetails":"$15/mo after 24 months",
+                "promotionalPrice":"$0.00"
+             },
+             "securityAddons":[
+                {
+                   "key":"norton_security_online",
+                   "value":"Norton Security Online",
+                   "checked":true,
+                   "addonType":[
+                      {
+                         "name":"norton_security_online",
+                         "label":"Basic",
+                         "price":"$2.00",
+                         "checked":true,
+                         "Basic_termDetails":"",
+                         "Basic_cartTermDetails":""
+                      },
+                      {
+                         "name":"norton_security_online",
+                         "label":"Premium",
+                         "price":"$0.00",
+                         "checked":false,
+                         "Premium_termDetails":"For the first 1 month, and $4/mo. thereafter",
+                         "Premium_cartTermDetails":"($4/mo after 1 month)"
+                      }
+                   ],
+                   "cartValue":"Norton Security Online",
+                   "termDetails":"For the first 24 months, and $15/mo. thereafter",
+                   "carttermDetails":"$15/mo after 24 months",
+                   "promotionalPrice":"$0.00"
+                },
+                {
+                   "key":"norton_secure_vpn",
+                   "value":"Norton Secure VPN",
+                   "addonType":[
+                      {
+                         "name":"norton_secure_vpn",
+                         "label":"Basic",
+                         "price":"$4.00",
+                         "checked":true,
+                         "Basic_termDetails":"For the first 1 month, and $15/mo. thereafter",
+                         "Basic_cartTermDetails":"($15/mo after 1 month)"
+                      },
+                      {
+                         "name":"norton_secure_vpn",
+                         "label":"Premium",
+                         "price":"$0.00",
+                         "checked":false,
+                         "Premium_termDetails":"For the first 1 month, and $6/mo. thereafter",
+                         "Premium_cartTermDetails":"($6/mo after 1 month)"
+                      }
+                   ],
+                   "cartValue":"Unlimited data",
+                   "termDetails":"For the first 24 months, and $15/mo. thereafter",
+                   "carttermDetails":"$15/mo after 24 months",
+                   "promotionalPrice":"$0.00"
+                }
+             ]
+          },
+          "equipments":[
+             {
+                "id":"1",
+                "name":"TELUS Boost Wi-Fi Starter Pack",
+                "price":"$120.00"
+             },
+             {
+                "id":"2",
+                "name":"TELUS Boost Wi-Fi Expansion Pack ($120.00 per Item)",
+                "price":"$120.00"
+             }
+          ]
+       },
+       "servicesFilters":[
+          {
+             "name":"FFH",
+             "items":[
+                {
+                   "name":"TV",
+                   "label":"TV"
+                },
+                {
+                   "name":"Internet",
+                   "label":"Internet"
+                },
+                {
+                   "name":"Phone",
+                   "label":"Phone"
+                },
+                {
+                   "name":"Home Security",
+                   "label":"Home Security"
+                }
+             ],
+             "label":"FFH"
+          },
+          {
+             "name":"Mobility",
+             "items":[
+ 
+             ],
+             "label":"Mobility"
+          }
+       ],
+       "collapsableHeaderOffersSearch":"Prospective customer",
+       "customerBasicInfo":[
+          {
+             "key":"firstName",
+             "value":"First Name",
+             "placeholder":"First Name",
+             "validationInvalidMsg":"First Name is invalid.  Special characters are not allowed.",
+             "validationRequiredMsg":"First Name is required"
+          },
+          {
+             "key":"lastName",
+             "value":"Last Name",
+             "placeholder":"Surname",
+             "validationInvalidMsg":"Last Name is invalid.  Special characters are not allowed.",
+             "validationRequiredMsg":"Last Name is required"
+          },
+          {
+             "key":"email",
+             "value":"Email Address",
+             "placeholder":"Email",
+             "validationInvalidMsg":"Email is invalid.",
+             "validationRequiredMsg":"Email Address is required"
+          },
+          {
+             "key":"CBRField",
+             "value":"CBR Phone Number (Optional)",
+             "placeholder":"000 000 0000"
+          }
+       ],
+       "serviceAddress":"Service Address",
+       "buttonText":{
+          "selectBtn":"Select",
+          "CSRDesktopBtn":"CSR Desktop",
+          "cancelBtn":"Cancel",
+          "sendEmailBtn":"Send",
+          "nextBtn":"Next",
+          "sendEmailBtnLabel":"Email offer",
+          "clearBtn":"Clear",
+          "CSRDesktopBtnLabel":"Complete order in",
+          "backBtn":"Back"
+       }
+    },
+    "filters": {
+        "monthlyPriceRange":"Monthly Price Range ($)",
+        "fibreServiceMessage":"TELUS PureFibre Services are available"
+    },
+    "salesOfferCart": {
+        "cartSubTotal":"Subtotal",
+        "cartLevel":"Cart",
+        "cartIncTotalTax":"Total incl. tax",
+        "cartContinue":"Next",
+        "cartTax":"Tax",
+        "cartAddOns":"Add ons",
+        "cartService":"Service",
+        "clearCartData":"Clear Cart",
+        "cartCredits":"Credits"
+    }
+ }
