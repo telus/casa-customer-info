@@ -116,3 +116,6 @@ dist
 
 # VSCode
 .vscode/
+
+# Storybook static
+storybook-static/

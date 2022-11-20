@@ -1,6 +1,7 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 import CasaCustomerInfo from '../CustomerInfo'
+
 storiesOf('CasaCustomerInfo', module)
 	.add('Mobility with single Telus BAN', () => (
 		<CasaCustomerInfo
@@ -206,54 +207,6 @@ storiesOf('CasaCustomerInfo', module)
 					{
 						status: 'closed',
 						value: '12345679'
-					}
-				]}
-		/>
-	))
-	.add('Home solutions with multiple Koodo BANs', () => (
-		<CasaCustomerInfo
-			id='customer-info-ffh-single-ban'
-			lob='ffh'
-			brand='koodo'
-			billingAccountName='Test Billing Account Name'
-			isCustomerId={false}
-			customerId='Barba Smith'
-			bans={[
-					{
-						status: 'open',
-						value: '65285134'
-					},
-					{
-						status: 'closed',
-						value: '65285135'
-					},
-					{
-						status: 'closed',
-						value: '65285136'
-					}
-				]}
-		/>
-	))
-	.add('Home solutions with CID + multiple Koodo BANs', () => (
-		<CasaCustomerInfo
-			id='customer-info-ffh-single-ban'
-			lob='ffh'
-			brand='koodo'
-			billingAccountName='Test Billing Account Name'
-			isCustomerId={true}
-			customerId='Barba Smith'
-			bans={[
-					{
-						status: 'open',
-						value: '65285134'
-					},
-					{
-						status: 'closed',
-						value: '65285135'
-					},
-					{
-						status: 'closed',
-						value: '65285136'
 					}
 				]}
 		/>

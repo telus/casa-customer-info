@@ -39,6 +39,9 @@
     "release": "npx semantic-release",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
+    "build-storybook-docs": "build-storybook  --docs",
+    "storybook:stories-of-to-csf": "npx sb migrate storiesof-to-csf --glob=src/**/*.stories.js",
+    "storybook:serve": "npx http-server ./storybook-static --port 3000",
     "prepare": "npm run build"
   },
   "devDependencies": {
