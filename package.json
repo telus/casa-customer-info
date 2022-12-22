@@ -28,7 +28,6 @@
     "build": "rollup -c",
     "coverage": "opener coverage/lcov-report/index.html",
     "lint:audit": "npx audit-ci@4.1.0 --config .audit-ci.json",
-    "lint:ec": "editorconfig-checker",
     "lint:js": "npx eslint --config .eslintrc.js --ext .js,.jsx",
     "lint": "npm-run-all -p -c -l lint:*",
     "fix:js": "npm run lint:js -- --fix",
