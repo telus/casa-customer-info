@@ -1,0 +1,30 @@
+{
+    "refundReasons":{
+        "RefundEquip": "Remboursement matériel",
+        "OverPayment": "Remboursement sur paiement",
+        "ClosedAcct": "Remboursement compte fermé",
+        "OverBill": "Remboursement surfacturé",
+        "DuplicatePayment": "Paiement en double",
+        "PaymentMadeInError": "Paiement effectué par erreur"
+    },
+    "refundAmount": {
+        "notificationText": "Le montant entré excède le solde"
+    },
+    "RFOVRP": "Remboursement sur paiement",
+    "paymentType": "Type de paiement",
+    "remainingAmount": "Montant restant",
+    "modifiedPaymentDetails": "Détails de paiement modifiés",
+    "originalAmount": "Montant initial",
+    "billingSystem": "Système de facturation",
+    "toBAN": "Au compte",
+    "BANTooltip" : "Obtenir les détails du compte",
+    "invoice": "N° de facture",
+    "destinationAccount" : "Compte de destination",
+    "addDestinationAccount" : "Ajouter un compte de destination",
+    "remaining" : "Restant",
+    "invoiceHint" : "Ce champ est utilisé par l'équipe Experience Paiement",
+    "additionalFeesAndTaxTitle": "Résumé des frais de traitement des cartes de crédit",
+    "additionalFeesAndTaxDescription": "Non inclus dans le solde restant",
+    "remainingBalance": "Solde restant",
+    "remainingBalanceHint": "Tout solde restant restera avec le compte d'origine"
+}

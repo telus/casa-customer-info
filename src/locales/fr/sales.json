@@ -1,0 +1,354 @@
+{
+  "casaSearch": {
+    "addressLabel": "Rue adresse Ville",
+    "clearAddressLink": "Claire",
+    "termFilter": {
+      "data": [
+        {
+          "key": "2 yrs",
+          "value": "2 ans"
+        },
+        {
+          "key": "No term",
+          "value": "Aucun terme"
+        }
+      ],
+      "headerName": "Filtrer les résultats",
+      "termHeaderName": "Terme"
+    },
+    "noOffersAvailableOnFilter": "Il n'y a actuellement aucune offre disponible correspondant à vos sélections de filtres.",
+    "offersLoader": "Chargement des offres",
+    "equipmentTitle": "Équipement",
+    "offerHeaders": [
+      {
+        "key": "product",
+        "value": "Produit"
+      },
+      {
+        "key": "term",
+        "value": "Terme"
+      },
+      {
+        "key": "price",
+        "value": "Prix"
+      },
+      {
+        "key": "features",
+        "value": "Caractéristiques"
+      },
+      {
+        "key": "serviceAddress",
+        "value": "Adresse de service"
+      }
+    ],
+    "offerFor": "Offres Internet pour",
+    "serviceQualificationLoader": " Vérification de votre adresse",
+    "serviceFilter": {
+      "parent": {
+        "items": [
+          {
+            "key": "FFH",
+            "value": "FFH"
+          },
+          {
+            "key": "Mobility",
+            "value": "Services mobiles"
+          }
+        ],
+        "label": "LOB",
+        "tollTipsText": "Line of Business"
+      },
+      "children": {
+        "items": [
+          {
+            "key": "OptikTV",
+            "value": "Optik TV",
+            "parentKey": "FFH"
+          },
+          {
+            "key": "PikTV",
+            "value": "Pik TV",
+            "parentKey": "FFH"
+          },
+          {
+            "key": "Internet",
+            "value": "l'Internet",
+            "parentKey": "FFH"
+          },
+          {
+            "key": "HomePhone",
+            "value": "Téléphone fixe",
+            "parentKey": "FFH"
+          }
+        ],
+        "label": "Produits"
+      }
+    },
+    "salesDesktop": "salesOfferSearch",
+    "dataLimit": {
+      "data": [
+        {
+          "key": "limited",
+          "name": "GB limité / mois",
+          "label": "GB limité / mois"
+        },
+        {
+          "key": "unlimited",
+          "name": "illimitée",
+          "label": "illimitée"
+        }
+      ],
+      "planHeaderName": "Limite de données"
+    },
+    "chooseServiceTxt": "Choisissez un service",
+    "salesTabName": "Offre de vente",
+    "innerTabs": ["01 EQUIPMENTS + ADDONS", "02 CHECKOUT", "L'INTERNET"],
+    "filterResult": {
+      "data": ["2 ans", "Aucun terme"],
+      "headerName": "Filtrer les résultats",
+      "termHeaderName": "Terme"
+    },
+    "searchHeader": "Rue adresse Ville",
+    "giftWithPurchase": {
+      "GWP": {
+        "items": [
+          {
+            "key": "Free_TV",
+            "value": "Télévision gratuite"
+          },
+          {
+            "key": "Apple_Wifi",
+            "value": "Apple Wifi"
+          },
+          {
+            "key": "Free_Projector",
+            "value": "Projecteur gratuit"
+          },
+          {
+            "key": "$500_VISA_Card",
+            "value": "Carte VISA de 500 $"
+          },
+          {
+            "key": "Boost_Wifi",
+            "value": "Booster le Wifi"
+          }
+        ],
+        "label": "GWP",
+        "toolTip": "Cadeau avec achat"
+      },
+      "promoPrice": {
+        "items": [
+          {
+            "key": "$10_off_for_24_mo",
+            "value": "10 $ de rabais pendant 24 mois"
+          }
+        ],
+        "label": "Prix Promo"
+      }
+    },
+    "noOffersErrorMessage": " Les offres de la FIFA ne sont pas disponibles. Veuillez utiliser la commande OMNI.",
+    "cartImage": [
+      {
+        "title": "Chariot",
+        "file": {
+          "url": "//images.ctfassets.net/fkgg3iqdgzcd/6Mmxsb2BglGLw843TPVKlT/77306ddbae7ee83afb18ddbaeca31566/cart_full.png",
+          "details": {
+            "size": 4194,
+            "image": {
+              "width": 224,
+              "height": 198
+            }
+          },
+          "fileName": "cart_full.png",
+          "contentType": "image/png"
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "fkgg3iqdgzcd"
+            }
+          },
+          "id": "6Mmxsb2BglGLw843TPVKlT",
+          "type": "Asset",
+          "createdAt": "2019-10-22T11:45:02.367Z",
+          "updatedAt": "2019-10-23T13:01:26.502Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 3,
+          "locale": "fr-CA"
+        }
+      }
+    ],
+    "equipmentAndAddons": {
+      "addons": {
+        "dataUsagePlan": {
+          "key": "Unlimited_data_usage",
+          "value": "Unlimited data usage",
+          "cartValue": "Unlimited data",
+          "termDetails": "For the first 24 months, and $15/mo. thereafter",
+          "carttermDetails": "$15/mo after 24 months",
+          "promotionalPrice": "$0.00"
+        },
+        "securityAddons": [
+          {
+            "key": "norton_security_online",
+            "value": "Norton Security Online",
+            "checked": true,
+            "addonType": [
+              {
+                "name": "norton_security_online",
+                "label": "Basic",
+                "price": "$2.00",
+                "checked": true,
+                "Basic_termDetails": "",
+                "Basic_cartTermDetails": ""
+              },
+              {
+                "name": "norton_security_online",
+                "label": "Premium",
+                "price": "$0.00",
+                "checked": false,
+                "Premium_termDetails": "For the first 1 month, and $4/mo. thereafter",
+                "Premium_cartTermDetails": "($4/mo after 1 month)"
+              }
+            ],
+            "cartValue": "Norton Security Online",
+            "termDetails": "For the first 24 months, and $15/mo. thereafter",
+            "carttermDetails": "$15/mo after 24 months",
+            "promotionalPrice": "$0.00"
+          },
+          {
+            "key": "norton_secure_vpn",
+            "value": "Norton Secure VPN",
+            "addonType": [
+              {
+                "name": "norton_secure_vpn",
+                "label": "Basic",
+                "price": "$4.00",
+                "checked": true,
+                "Basic_termDetails": "For the first 1 month, and $15/mo. thereafter",
+                "Basic_cartTermDetails": "($15/mo after 1 month)"
+              },
+              {
+                "name": "norton_secure_vpn",
+                "label": "Premium",
+                "price": "$0.00",
+                "checked": false,
+                "Premium_termDetails": "For the first 1 month, and $6/mo. thereafter",
+                "Premium_cartTermDetails": "($6/mo after 1 month)"
+              }
+            ],
+            "cartValue": "Unlimited data",
+            "termDetails": "For the first 24 months, and $15/mo. thereafter",
+            "carttermDetails": "$15/mo after 24 months",
+            "promotionalPrice": "$0.00"
+          }
+        ]
+      },
+      "equipments": [
+        {
+          "id": "1",
+          "name": "TELUS Boost Wi-Fi Starter Pack",
+          "price": "$120.00"
+        },
+        {
+          "id": "2",
+          "name": "TELUS Boost Wi-Fi Expansion Pack ($120.00 per Item)",
+          "price": "$120.00"
+        }
+      ]
+    },
+    "servicesFilters": [
+      {
+        "name": "FFH",
+        "items": [
+          {
+            "name": "la télé",
+            "label": "la télé"
+          },
+          {
+            "name": "l'Internet",
+            "label": "l'Internet"
+          },
+          {
+            "name": "Téléphone",
+            "label": "Téléphone"
+          },
+          {
+            "name": "Sécurité à domicile",
+            "label": "Sécurité à domicile"
+          }
+        ],
+        "label": "FFH"
+      },
+      {
+        "name": "Services mobiles",
+        "items": [],
+        "label": "Services mobiles"
+      }
+    ],
+    "collapsableHeaderOffersSearch": "Client potentiel",
+    "customerBasicInfo": [
+      {
+        "key": "firstName",
+        "value": "Prénom",
+        "placeholder": "Prénom",
+        "validationInvalidMsg": "Prénom invalide",
+        "validationRequiredMsg": "Le prénom est requis"
+      },
+      {
+        "key": "lastName",
+        "value": "Nom de famille",
+        "placeholder": "Nom de famille",
+        "validationInvalidMsg": "Nom de famille invalide",
+        "validationRequiredMsg": "Le nom est requis"
+      },
+      {
+        "key": "email",
+        "value": "Adresse e-mail",
+        "placeholder": "Email",
+        "validationInvalidMsg": "email invalide.",
+        "validationRequiredMsg": "Adresse e-mail est nécessaire"
+      },
+      {
+        "key": "CBRField",
+        "value": "CBR numéro de téléphone (facultatif)",
+        "placeholder": "000 000 0000"
+      }
+    ],
+    "serviceAddress": "Adresse de service",
+    "buttonText": {
+      "selectBtn": "Choisir",
+      "CSRDesktopBtn": "CSR Desktop",
+      "cancelBtn": "Annuler",
+      "sendEmailBtn": "Envoyer",
+      "nextBtn": "Prochain",
+      "sendEmailBtnLabel": "Offre email",
+      "clearBtn": "Claire",
+      "CSRDesktopBtnLabel": "Terminer la commande en",
+      "backBtn": "Retour"
+    }
+  },
+  "filters": {
+    "monthlyPriceRange": "Fourchette de prix mensuelle ($)",
+    "fibreServiceMessage": "TELUS PureFibre Services are available"
+  },
+  "salesOfferCart": {
+    "cartSubTotal": "Total",
+    "cartLevel": "Chariot",
+    "cartIncTotalTax": "Total incl. impôt",
+    "cartContinue": "Prochain",
+    "cartTax": "Impôt",
+    "cartAddOns": "Add ons",
+    "cartService": "Un service",
+    "clearCartData": "Vider le panier",
+    "cartCredits": "Crédits"
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "pay": "Payer",
+    "otpPopupTitle": "Paiement unique par carte de crédit",
+    "cardPaymentSummary": "One-time credit card payment summary",
+    "notification": {
+        "fee": "Informer le client qu'il y aura des frais de 1,5 % pour cette transaction."
+    },
+    "header": {
+        "getNewCard": "Récupération de la carte de crédit",
+        "creditCardInfo": "Informations sur la carte de crédit",
+        "paymentDetails": "Détails du paiement"
+    },
+    "label": {
+        "cardType": "Type de carte",
+        "expDate": "Date d'expiration (mm/aa)",
+        "cardNumber": "Numéro de carte (4 derniers chiffres)",
+        "amount": "Montant",
+        "depositInvoice": "Acompte facture #"
+    },
+    "placeholder": {
+        "enterValue":"Entrez la valeur",
+        "select":"Sélectionner"
+    }
+}

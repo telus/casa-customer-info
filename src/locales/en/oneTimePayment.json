@@ -1,0 +1,24 @@
+{
+    "pay": "Pay",
+    "otpPopupTitle": "One-Time Credit Card Payment",
+    "cardPaymentSummary": "One-time credit card payment summary",
+    "header": {
+        "paymentDetails": "Payment details",
+        "getNewCard": "Get new card data",
+        "creditCardInfo": "Credit card information"
+    },
+    "notification": {
+        "fee": "Advise client there will be a 1.5% fee for this transaction."
+    },
+    "label": {
+        "cardType": "Card type",
+        "expDate": "Expiry date (mm/yy)",
+        "cardNumber": "Card number (last 4 digits)",
+        "amount": "Amount",
+        "depositInvoice": "Deposit Invoice #"
+    },
+    "placeholder": {
+        "enterValue":"Enter Value",
+        "select":"Select"
+    }
+}
