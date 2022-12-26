@@ -60,7 +60,7 @@
     "@storybook/testing-library": "^0.0.13",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.5",
-    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.7",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.8.0",
     "@telus/casa-box": "^1.0.2",
     "@telus/casa-core-colours": "^1.1.0",
     "@telus/casa-form-label": "^1.0.1",
